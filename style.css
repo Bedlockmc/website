@@ -93,6 +93,11 @@ h2 {
   transform: scale(1.03);
 }
 
+.gamemode-card h3 i {
+  margin-right: 0.5rem;
+  color: #ffd700;
+}
+
 .coming-soon {
   opacity: 0.6;
 }
