@@ -1,2 +1,2 @@
-# website
-site for the server
+# BedlockMC-gebiste
+WEBSITE
