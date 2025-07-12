@@ -1,45 +1,43 @@
 body {
   margin: 0;
-  font-family: 'Orbitron', sans-serif;
-  background: #0f0f0f;
+  font-family: 'Inter', sans-serif;
+  background-color: #0d0d0d;
   color: #fff;
-  line-height: 1.6;
   scroll-behavior: smooth;
 }
 
 .hero {
+  height: 100vh;
+  background: radial-gradient(circle at center, #1a1a1a, #0d0d0d);
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background: radial-gradient(ellipse at center, #1a1a1a 0%, #0f0f0f 100%);
   text-align: center;
 }
 
-.intro h1 {
+.hero h1 {
   font-size: 4rem;
   margin: 0;
 }
 
-.intro p {
-  font-size: 1.25rem;
+.subtitle {
+  font-size: 1.5rem;
   margin: 1rem 0;
+  color: #aaa;
 }
 
-.intro code {
-  display: block;
-  margin: 0.5rem auto;
+.hero code {
+  background: #222;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
   font-family: monospace;
-  background: #1f1f1f;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
 }
 
 .section {
   padding: 4rem 2rem;
+  text-align: center;
   max-width: 800px;
   margin: auto;
-  text-align: center;
 }
 
 ul {
@@ -59,6 +57,7 @@ a {
 footer {
   text-align: center;
   padding: 2rem;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   background: #111;
+  color: #aaa;
 }
