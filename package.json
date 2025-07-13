@@ -2,11 +2,13 @@
     "name": "vortan-mc",
     "version": "1.0.0",
     "private": true,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start"
-    },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "export": "next export",
+  "deploy": "npm run build && npm run export"
+},
+
     "dependencies": {
         "framer-motion": "10.12.11",
         "lucide-react": "^0.245.0",
